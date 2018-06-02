@@ -1,0 +1,49 @@
+body {
+  margin: 0 auto;
+}
+
+.header {
+  border-bottom: 1px solid black;
+  height: 80px;
+  width: 100%;
+  font-family: Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  padding-left: 30px;
+  border: 1px solid red;
+  align-items: center;
+}
+
+.title {
+  padding-left: 10px;
+  color: MediumAquamarine;
+}
+
+.header li {
+  list-style: none;
+  display: inline-block;
+  margin: 10px;
+}
+
+.header img {
+  height: 60px;
+}
+
+ul {
+  padding-right: 30px;
+}
+
+.nav {
+  border: 1px solid blue;
+}
+
+.nav a {
+  color: black;
+}
